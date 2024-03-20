@@ -1,0 +1,220 @@
+*{
+    margin: 00;
+    font-family: Arial, Helvetica, sans-serif;
+    border: border-box;
+    color: aliceblue; 
+}
+.nevbar{
+    height: 55px;
+    width: 100%;
+   background-color: #011240;
+   display: flex;
+   align-items: center;
+   border-bottom: 2px solid #b8b0b0;
+   border-radius: 4px;
+
+
+}
+.nevlogo{
+    background-image: url("Cblogo.png");
+    height: 50pX;
+    width: 50px;
+    background-size: cover;
+    display: flex;
+   margin-left: 30px;
+}
+.nav-tita{
+     display: flex;
+
+}
+/*Box2*/
+.socle{
+    display: flex;
+    align-items: center;
+    margin-left: 40px;
+  ;
+}
+.socle a{
+    padding-left: 4px;
+    align-items: center;
+}
+ 
+.nev-search{
+    display: flex;
+    justify-content: space-evenly;
+    height: 30px;
+    width: 380PX;
+    margin-left: 100px;
+    align-items: center;
+    border: 1rem;
+    background-color: #2e303f;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    border: none;
+}
+.search-input{
+    width: 100%;
+    font-size: 1.2rem;
+    color: #000;
+    align-items: center;
+    justify-content: space-evenly;
+    border: none;
+}
+.search-icon{
+    height: 30px;
+    width: 30px;
+    background-color: #444369;
+    align-items: center;
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    justify-content: space-evenly;
+    display: flex;
+    border: none;
+    
+}
+
+.new-user{
+    display: flex;
+    margin-left: 230px;
+    height: 35px;
+    
+}    
+.nav-login{
+    background-color: #6c6c6c;
+    border-radius: 2px;
+    width: 60px;
+    height: 30px;
+    font-size: 1.2rem;
+    border: none;
+}
+.user-signup{
+    border-radius: 2px;
+    width: 70px;
+    height: 30px;
+    background-color: #816ae6;
+    border: none;
+    font-size: 1rem;
+    margin-left: 5px;
+}
+.new-user :hover{
+    background-color: #f04646;
+    transition: all, ease, 0.5s;
+}
+
+/* hero */
+ 
+.main{
+    height: 900px;
+    width: 100%;
+   background-image: url("loke.jpg");
+   background-size: cover;
+   
+}
+/* contant */
+.sub{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: #b8b0b0;
+  
+}
+.sub a{
+    width: 99px;
+    align-items: center;
+    text-align: center;
+    border-radius: 10px;
+    border: 2px solid  #d70606;
+    font-size: 20px;
+    font-weight: 600;
+   background: -webkit-linear-gradient(#1744e7, #4f4f4f);
+    background-clip: text ;
+    -webkit-text-fill-color: transparent;
+    transition: all ease 0.3s;
+}
+.sub a:hover{
+ background: -webkit-linear-gradient(#e43333, #68db0a);
+ background-clip: text;
+ border: 2px solid #5133e4;
+}
+.name{
+    text-align: center;
+    margin-bottom: 8px;
+    padding-bottom: 5px;
+}
+.name:hover{
+    
+    border-radius: 20px;
+    color: #d70606;
+}
+.hero {
+    display: flex;
+    height: 280px;
+    width: 95%;
+    margin-top: 30px;
+    margin-left: 25px;
+    background-image: url("drak.jpg");
+    border-radius: 10px;
+    border: none;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.box2{
+    height: 260px;
+    width: 220px;
+    background-image: url("DSC_4803.jpg");
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    margin: 15px ;
+    border-radius: 5px;
+    border: none;
+     
+}
+.box3{
+    height: 260px;
+    width: 220px;
+    background-image: url("natur.jpg");
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    margin: 15px ;
+    border-radius: 5px;
+    border: none;
+     
+}
+.box4{
+    height: 260px;
+    width: 220px;
+    background-image: url("suv.jpg");
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    margin: 15px ;
+    border-radius: 5px;
+    border: none;
+     
+}
+.box5{
+    height: 260px;
+    width: 220px;
+    background-image: url("tre.jpg");
+    display: flex;
+    background-size: cover;
+    align-items: center;
+    margin: 15px ;
+    border-radius: 5px;
+    border: none;
+     
+}
+.hero :hover{
+    background-image: url("DSC_4853.JPG");
+    border: 3px solid #d70606;
+}
+
+.par{
+    display: flex;
+    margin-top: 30px;
+    margin-left: 130px;
+}
